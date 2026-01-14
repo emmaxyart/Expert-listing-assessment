@@ -33,29 +33,29 @@ export function UsersOverview() {
 
       <div className="h-px bg-gray-100 dark:bg-gray-800 mt-4" />
 
-      <CardContent className="p-3">
+      <CardContent className="px-6 mt-4">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <p className="text-sm font-medium text-[#525252] dark:text-gray-400">
               Total
             </p>
-            <p className="text-xl font-bold text-gray-900 mt-4 dark:text-white">
+            <p className="text-[24px] font-semibold text-[#141414] mt-3 dark:text-white">
               20.7k
             </p>
           </div>
           <div>
-            <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <p className="text-sm font-medium text-[#525252] dark:text-gray-400">
               Riders
             </p>
-            <p className="text-xl font-bold text-gray-900 mt-4 dark:text-white">
+            <p className="text-[24px] font-semibold text-[#141414] mt-3 dark:text-white">
               8.5k
             </p>
           </div>
           <div>
-            <p className="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <p className="text-sm font-medium text-[#525252] dark:text-gray-400">
               Subscribers
             </p>
-            <p className="text-xl font-bold text-gray-900 mt-4 dark:text-white">
+            <p className="text-[24px] font-semibold text-[#141414] mt-3 dark:text-white">
               7.5k
             </p>
           </div>
