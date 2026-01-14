@@ -33,7 +33,7 @@ export function ListingsOverview() {
 
       <div className="h-px bg-gray-100 dark:bg-gray-800 mt-4" />
 
-      <CardContent className="p-3">
+      <CardContent className="p-2">
         <div className="flex items-center justify-between">
           <div>
             <p className="text-sm font-medium text-gray-500 dark:text-gray-400">

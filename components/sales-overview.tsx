@@ -103,7 +103,7 @@ export function SalesOverview() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <CardTitle className="text-[20px] text-[#191919] font-bold">Sales Overview</CardTitle>
-            <p className="text-regular text-[#606060] text-muted-foreground mt-1">Showing overview Jan 2022 - Sep 2022</p>
+            <p className="text-regular text-[#606060] text-[12px] mt-1">Showing overview Jan 2022 - Sep 2022</p>
           </div>
           <Button variant="outline" className="rounded-[72px] px-6 text-sm bg-transparent whitespace-nowrap">
             View Transactions
@@ -112,7 +112,7 @@ export function SalesOverview() {
       </CardHeader>
 
       <CardContent className="pb-0">
-        <div className="flex justify-end gap-2 flex-wrap -mt-4 mb-2">
+        <div className="flex justify-end text-[14px] font-regular text-[#3D3D3D] gap-2 flex-wrap -mt-4 mb-2">
           {["1 Week", "1 Month", "1 Year"].map((period) => (
             <Button
               key={period}

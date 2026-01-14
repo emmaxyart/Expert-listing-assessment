@@ -56,7 +56,7 @@ export function BudgetModal({ isOpen, onClose }: BudgetModalProps) {
             </div>
           </div>
           <div className="mt-8">
-            <Button onClick={onClose} className="w-full bg-black text-white rounded-full py-3 text-lg hover:bg-gray-800">
+            <Button onClick={onClose} className="w-full bg-[#18181B] font-medium text-white rounded-full py-4 text-lg hover:bg-gray-800">
               Create Budget
             </Button>
           </div>
