@@ -22,9 +22,9 @@ export function SalesChart() {
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
-        <Bar dataKey="value1" fill="#1a5a5a" />
-        <Bar dataKey="value2" fill="#3b82f6" />
-        <Bar dataKey="value3" fill="#ef4444" />
+        <Bar dataKey="value1" fill="#12B76A" />
+        <Bar dataKey="value2" fill="#4545FE" />
+        <Bar dataKey="value3" fill="#F04438" />
       </BarChart>
     </ResponsiveContainer>
   )
