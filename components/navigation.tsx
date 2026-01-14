@@ -23,7 +23,7 @@ export function Navigation() {
   ]
 
   return (
-    <nav className="w-full bg-white px-6 sm:px-12 py-3 sm:py-4 flex items-center justify-between">
+    <nav className="hidden lg:flex w-full bg-white px-6 sm:px-12 py-3 sm:py-4 items-center justify-between">
       {navItems.map((item, index) => {
         const Icon = item.icon
         const isActive = pathname === item.href
