@@ -126,7 +126,15 @@ export function SalesOverview() {
       </CardContent>
       <div className="h-px bg-[#E4E4E4]" />
       <CardContent>
-        <div className="flex flex-col items-center md:flex-row gap-4 md:gap-2 md:items-start">
+        <div className="flex flex-col items-center md:flex-row gap-4  md:items-start">
+          <div className="hidden md:flex items-center justify-center self-center pb-12">
+            <Image
+              src="/left-select.svg"
+              alt="Left select icon"
+              width={13.5}
+              height={13.5}
+            />
+          </div>
           <div className="w-full md:w-[50%] min-w-0">
             <SalesChart />
           </div>
