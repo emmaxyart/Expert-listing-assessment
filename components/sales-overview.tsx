@@ -127,7 +127,7 @@ export function SalesOverview() {
       <div className="h-px bg-[#E4E4E4]" />
       <CardContent>
         <div className="flex flex-col items-center md:flex-row gap-4  md:items-start">
-          <div className="hidden md:flex items-center justify-center self-center pb-12">
+          <div className="hidden md:flex items-center justify-center self-center pb-9 mr-[-20px]">
             <Image
               src="/left-select.svg"
               alt="Left select icon"
@@ -138,7 +138,7 @@ export function SalesOverview() {
           <div className="w-full md:w-[50%] min-w-0">
             <SalesChart />
           </div>
-          <div className="hidden md:flex items-center justify-center self-center pb-12">
+          <div className="hidden md:flex items-center justify-center self-center pb-12 ">
             <Image
               src="/right-select.svg"
               alt="Right select icon"

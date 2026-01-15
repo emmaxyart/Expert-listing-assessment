@@ -15,12 +15,18 @@ const chartData = [
 ]
 
 export function SalesChart() {
+  const ticks = [0, 10, 20, 30, 40, 50]
+  const formatYAxis = (tickItem: number) => {
+    if (tickItem === 0) return "0"
+    return `${tickItem}m`
+  }
+
   return (
     <ResponsiveContainer width="100%" height={200} minHeight={200}>
       <BarChart data={chartData}>
         <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
         <XAxis dataKey="month" />
-        <YAxis />
+        <YAxis ticks={ticks} tickFormatter={formatYAxis} interval={0} />
         <Tooltip />
         <Bar dataKey="value1" fill="#12B76A" />
         <Bar dataKey="value2" fill="#4545FE" />
